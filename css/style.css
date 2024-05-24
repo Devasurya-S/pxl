@@ -1,0 +1,148 @@
+:root {
+    --sandwychBlue: #00aeef;
+    --yellowAccent: #FE9E1B;
+    --blueAccent: #192770;
+    --whoCanBgBlue: #E7EEF5;
+    --whoCanBgPeach: #FFF8EF;
+    --filterText: #303D81;
+}
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+.bgSandwychBlue {
+    background-color: var(--sandwychBlue);
+}
+
+.fontSize35 {
+    font-size: 20px;
+}
+
+.fontSize15 {
+    font-size: 15px;
+}
+
+.fontSize16{
+    font-size: 13px;
+}
+
+.fontSize45 {
+    font-size: 25px;
+}
+
+.fontSize18 {
+    font-size: 13px;
+}
+
+.fontSize25{
+    font-size: 16px;
+}
+
+.siteMapAnchor {
+    text-decoration: none;
+    color: black;
+}
+
+.siteMapAnchor:hover {
+    color: var(--yellowAccent);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Media query for small desktops and larger */
+@media (min-width: 768px) {
+    .fontSize35 {
+        font-size: 35px;
+    }
+
+    .fontSize25 {
+        font-size: 25px;
+    }
+
+    .fontSize16 {
+        font-size: 16px;
+    }
+
+    .fontSize45 {
+        font-size: 45px;
+    }
+
+    .fontSize18 {
+        font-size: 18px;
+    }
+
+    .fontSize20 {
+        font-size: 20px;    
+    }   
+
+}
+
+/* Media query for tablets */
+@media (min-width: 576px) and (max-width: 1023px) {
+
+    .fontSize35 {
+        font-size: 22px;
+    }
+
+    .fontSize25 {
+        font-size: 18px;
+    }
+
+    .fontSize16 {
+        font-size: 15px;
+    }
+
+    .fontSize45 {
+        font-size: 35px;
+    }
+
+    .fontSize20 {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 1023px) and (max-width: 1366px) {
+
+    .fontSize35 {
+        font-size: 18px;
+    }
+    
+    .fontSize15 {
+        font-size: 13px;
+    }
+    
+    .fontSize16{
+        font-size: 11px;
+    }
+    
+    .fontSize45 {
+        font-size: 23px;
+    }
+    
+    .fontSize18 {
+        font-size: 11px;
+    }
+    
+    .fontSize25{
+        font-size: 14px;
+    }
+
+    .fontSize20 {
+        font-size: 14px;
+    }
+    
+    .accordion-button::after {
+        width: 87px;
+        padding: 15px;
+    }    
+    
+}
